@@ -8,7 +8,7 @@ source("./readData.R")
 powerConsumption <- readData("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip")
 
 # Open png device (Plot1.png)
-png(file="Plot1.png", widht=480, height=480)
+png(file="Plot1.png", width=480, height=480)
 
 # Save the graphic parameters so we can restore them later
 oldpar <- par()
