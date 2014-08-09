@@ -1,5 +1,4 @@
-# Source the readData() function which downloads the data set and creates the data frame for the 
-# two dates
+# Source readData.R -- contains the readData() function to download the data and read it into a data frame
 source("./readData.R")
 
 # Create the data frame

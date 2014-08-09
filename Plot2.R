@@ -1,8 +1,7 @@
-# Source the readData() function which downloads the data set and creates the data frame for the 
-# two dates
+# Source readData.R -- contains the readData() function to download the data and read it into a data frame
 source("./readData.R")
 
-# Create the data frame
+# Read the data and create a data frame of the observations from 2007-02-01 and 2007-02-02
 powerConsumption <- readData("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip")
 
 # Open png device (Plot2.png)
